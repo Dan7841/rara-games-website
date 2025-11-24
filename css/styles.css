@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Marko+One&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -8,6 +10,7 @@ body {
     background-color: #FCFCFC;
     color: #1A1A1A;
     line-height: 1.6;
+    font-family: "Marko One", serif;
 }
 
 .header {
@@ -28,8 +31,6 @@ body {
     padding-left: 50px;
 }
 
-
-
 .nav ul {
     display: flex;
     gap: 20px;
@@ -39,6 +40,38 @@ body {
 
 .nav a {
     color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #CB0F33;
+    color: #fff;
+    margin-top: 50px;
+}
+
+.hero {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    color: #fff;
+}
+
+.cta {
+    padding: 12px 25px;
+    background-color: #20CFCF;
+    color: #000;
+    border-radius: 8px;
     text-decoration: none;
     font-weight: bold;
 }
