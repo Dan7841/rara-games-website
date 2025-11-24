@@ -13,7 +13,6 @@
 .about-intro p {
     font-size: 1.1rem;
     line-height: 1.7;
-   /*  max-width: 800px; */
 }
 
 .team-section {
@@ -21,20 +20,38 @@
 }
 
 .team-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax (260px, 1fr));
-    gap: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 40px;
+    flex-wrap: wrap;
 }
 
 .team-member {
-    background: #fff;
+    width: 250px;
     padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.88);
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    background: #fff;
     text-align: center;
-    transition: transform 0.2s ease;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .team-member:hover {
     transform: translateY(-5px);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+}
+
+@media (max-width: 768px) {
+    .team-container {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+}
+
+.team-member img {
+    width: 100%;
+    height: auto; 
+    border-radius: 8px;
+    object-fit: cover; 
+    max-height: 350px; 
 }
