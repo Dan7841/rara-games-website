@@ -1,3 +1,4 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css');
 @import url('https://fonts.googleapis.com/css2?family=Marko+One&display=swap');
 
 * {
@@ -52,6 +53,21 @@ body {
     margin-top: 50px;
 }
 
+.footer .social-icons {
+    margin-top: 10px;
+}
+
+.footer .social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 26px;
+    text-decoration: none;
+}
+
+.footer .social-icons a:hover, .page-btn:hover {
+    color: #C0C0C0;
+}
+
 .hero {
     height: 80vh;
     display: flex;
@@ -64,7 +80,7 @@ body {
 
 .hero h1 {
     font-size: 3rem;
-    color: #fff;
+    color: #000;
 }
 
 .cta {
@@ -74,4 +90,10 @@ body {
     border-radius: 8px;
     text-decoration: none;
     font-weight: bold;
+}
+
+.active-page {
+    border: 2px solid #fff;
+    border-radius: 35px;
+    padding: 5px 8px;
 }

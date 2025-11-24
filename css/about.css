@@ -4,6 +4,11 @@
     padding: 20px;
 }
 
+#about-logo {
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+
 .about-intro h1 {
     font-size: 2.5rem;
     margin-bottom: 15px;
