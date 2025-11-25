@@ -1,0 +1,17 @@
+.games-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.game-image {
+    background-image: url(../img/Tomebound.png);
+    width: 100%;
+    height: auto;
+}
+
+.game-text {
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
