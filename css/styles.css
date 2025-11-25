@@ -58,6 +58,12 @@ body {
     color: #fff;
 }
 
+.footer img {
+    width: 100px;
+    height: auto;
+
+}
+
 .footer .social-icons {
     margin-top: 10px;
 }
