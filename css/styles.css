@@ -1,11 +1,12 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css');
 @import url('https://fonts.googleapis.com/css2?family=Marko+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Inter:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Inter:wght@400;600&family=Roboto+Slab:wght@400;700&family=Playfair+Display:wght@400;700&family=Montserrat:wght@400;600;700&display=swap');
+
 
 :root {
     --text-color1: #fff;
     --text-color2: #000;
-    --accent-color: #1E1E24;
+    --accent-color: #F2EEFA;
 }
 
 * {
@@ -18,7 +19,7 @@ body {
     background-color: #FCFCFC;
     color: var(--text-color2);
     line-height: 1.6;
-    font-family: "Cinzel", serif;
+    font-family: "Montserrat", serif;
 }
 
 .header {
@@ -118,7 +119,7 @@ body {
 }
 
 .active-page {
-    border: 2px solid #C9A24D;
+    border: 2px solid #D17A22;
     border-radius: 35px;
     padding: 8px 12px;
 }
