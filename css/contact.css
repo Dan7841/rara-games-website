@@ -8,7 +8,7 @@
 }
 
 .contact-form {
-  background-color: #cc1836;
+  background-color: #1e1e24;
   max-width: 400px;
   width: 100%;
   padding: 30px 25px;
@@ -61,7 +61,7 @@
 }
 
 .contact-form button:hover {
-  background-color: #ccc;
+  background-color: #c9a24d;
 }
 
 
