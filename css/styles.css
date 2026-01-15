@@ -1,5 +1,6 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css');
 @import url('https://fonts.googleapis.com/css2?family=Marko+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Inter:wght@400;600&display=swap');
 
 :root {
     --text-color1: #fff;
@@ -17,7 +18,7 @@ body {
     background-color: #FCFCFC;
     color: var(--text-color2);
     line-height: 1.6;
-    font-family: "Marko One", serif;
+    font-family: "Cinzel", serif;
 }
 
 .header {
