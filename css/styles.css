@@ -6,7 +6,7 @@
 :root {
     --text-color1: #fff;
     --text-color2: #000;
-    --accent-color: #6B8E23;
+    --accent-color: #2F2F3A;
 }
 
 * {
@@ -119,7 +119,7 @@ body {
 }
 
 .active-page {
-    border: 2px solid #D17A22;
+    border: 2px solid #1F2A44;
     border-radius: 35px;
     padding: 8px 12px;
 }
