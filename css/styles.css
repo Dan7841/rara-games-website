@@ -6,7 +6,7 @@
 :root {
     --text-color1: #fff;
     --text-color2: #000;
-    --accent-color: #CB0F33;
+    --accent-color: #cb0f33;
 }
 
 * {
@@ -16,7 +16,7 @@
 }
 
 body {
-    background-color: #FCFCFC;
+    background-color: #f3efef;
     color: var(--text-color2);
     line-height: 1.6;
     font-family: "Marko One", serif;
@@ -78,7 +78,7 @@ body {
 }
 
 .footer .social-icons a:hover, .page-button:hover {
-    color: #E0E0E0;
+    color: #c9a24d;
     transition: 0.3s;
 }
 
@@ -123,3 +123,4 @@ body {
     border-radius: 35px;
     padding: 8px 12px;
 }
+
