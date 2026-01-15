@@ -7,6 +7,7 @@
 #about-logo {
     -webkit-filter: invert(100%);
     filter: invert(100%);
+    text-align: center;
 }
 
 .about-intro h1 {
